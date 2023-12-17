@@ -11129,6 +11129,12 @@ html {
   left: 50%;
 }
 
+.text-move2 {
+  position: absolute;
+  text-align: center;
+  bottom: 43%;
+}
+
 .img2 {
   max-width: 77%;
   max-height: auto;
