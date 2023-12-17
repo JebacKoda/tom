@@ -10969,7 +10969,7 @@ html {
 
 .masthead {
   padding-top: calc(2rem + 74px);
-  background-image: url('/assets/img/TOMIFERESH_WEB_1.png');
+  background-image: url('../assets/img/TOMIFERESH_WEB_1.png');
   background-size: cover;
 }
 .masthead .masthead-heading {
@@ -11043,7 +11043,7 @@ html {
 }
 
 #partners {
-  background-image: url("../assets/img/TOMIFERESH_WEB_2.png");
+  background-image: url('../assets/img/TOMIFERESH_WEB_2.png');
   background-size: contain;
 }
 
