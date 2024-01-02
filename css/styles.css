@@ -11081,13 +11081,15 @@ html {
 }
 
 .textik{
-  font-size: 24px;
+  font-size: 26px;
+  font-family: 'Metropolis', sans-serif;
 }
 
 .textik0 {
-  font-size: 20px;
+  font-size: 23px;
   text-align: start;
-  font-weight: light;
+  font-weight: lighter;
+
 }
 
 .textik1 {
@@ -11142,7 +11144,7 @@ html {
 
 .img2 {
   position: relative;
-  max-width: 70%;
+  max-width: 72%;
   max-height: auto;
   display: block;
   margin: auto;
@@ -11172,7 +11174,6 @@ a {
 
 .bold{
   font-weight: bold;
-  font-size: 2.5rem;
 }
 
 .italic{
@@ -11195,6 +11196,5 @@ a {
 
 .helper{
   position: relative;
-  top: 5%;
   margin: auto;
 }
