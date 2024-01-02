@@ -11066,6 +11066,8 @@ html {
   bottom: 0;
   left:0;
   width: 100%;
+  z-index: 0;
+  min-width: 20rem;
 }
 
 .txt-bg {
@@ -11078,11 +11080,14 @@ html {
   background-size: contain;
 }
 
+.textik{
+  font-size: 24px;
+}
+
 .textik0 {
-  font-size: 25px;
+  font-size: 20px;
   text-align: start;
   font-weight: light;
-  font-style: italic;
 }
 
 .textik1 {
@@ -11090,6 +11095,10 @@ html {
   font-style: italic;
   font-size: 2rem;
   color: #00D501;
+}
+
+.textik3{
+  margin: 0;
 }
 
 .text-bg-green {
@@ -11124,16 +11133,19 @@ html {
 
 .text-move2 {
   position: absolute;
-  text-align: center;
-  bottom: 60%;
+  bottom: 0;
+  height: 85%;
+  text-align: start;
+  left: 10%;
+  right: 20%;
 }
 
 .img2 {
+  position: relative;
   max-width: 70%;
   max-height: auto;
   display: block;
   margin: auto;
-  
 }
 
 .centered {
@@ -11146,4 +11158,43 @@ html {
 
 .text-box {
   margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.white-border {
+  outline: 2px solid white;
+  outline-offset: -6px;
+  border-radius: 50px;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.light{
+  font-weight: lighter;
+}
+
+.placement {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ico{
+  max-width: 50px;
+}
+
+.helper{
+  position: relative;
+  top: 5%;
+  margin: auto;
 }
