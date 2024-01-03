@@ -11073,6 +11073,8 @@ html {
 .txt-bg {
   background-color: #00D501;
   padding: 7px;
+  width: 100%;
+  min-width: 15rem;
 }
 
 .row-text {
@@ -11083,10 +11085,6 @@ html {
 .textik{
   font-size: 22px;
   font-family: 'Metropolis', sans-serif;
-}
-
-.bigfont{
-  font-size: 24px;
 }
 
 .textik0 {
