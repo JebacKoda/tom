@@ -11099,10 +11099,6 @@ html {
   color: #00D501;
 }
 
-.textik3{
-  margin: 0;
-}
-
 .text-bg-green {
   background-color: #00D501;
   border-radius: 50px;
@@ -11139,7 +11135,7 @@ html {
   height: 85%;
   text-align: start;
   left: 10%;
-  right: 20%;
+  right: 30%;
 }
 
 .img2 {
@@ -11186,7 +11182,7 @@ a {
 
 .placement {
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   left: 0;
 }
 
@@ -11197,4 +11193,64 @@ a {
 .helper{
   position: relative;
   margin: auto;
+}
+
+@media (min-width: 1200px) {
+  .helper {
+    top: 10%;
+  }
+}
+
+.txt1 {
+  font-size: 5vw;
+  white-space: nowrap;
+}
+
+.txt2 {
+  font-size: 6vw;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.txt3 {
+  font-size: 4vw;
+  padding-top: 30px;
+  opacity: 0.9;
+}
+
+.txt4 {
+  font-size: 3vw;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+.text-move2 .pad {
+  padding-top: 30px;
+}
+
+.txt5 {
+  font-size: 4vw;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .txt1 {
+    font-size: 2.5vw;
+  }
+  .txt2 {
+    font-size: 2.98vw;
+  }
+  .txt3 {
+    padding-top: 20px;
+    font-size: 1.9vw;
+  }
+  .txt4 {
+    font-size: 1.5vw;
+    font-weight: lighter;
+  }
+  .text-move2 .pad {
+    padding-top: 60px;
+  }
+  .txt5 {
+    font-size: 2.3vw;
+  }
 }
